@@ -2,7 +2,7 @@ bus_markers = []
 bus_routes = []
 
 async function buses() {
-    const response = await fetch("/data/vehicles", {
+    const response = await fetch("/move/data/vehicles", {
         method: "POST",
     });
     const data = await response.json();
@@ -20,7 +20,7 @@ async function buses() {
 }
 
 async function arrivals() {
-    const response = await fetch("/data/arrivals", {
+    const response = await fetch("/move/data/arrivals", {
         method: "POST",
     });
     const data = await response.json();
@@ -64,7 +64,7 @@ async function pullData() {
 }
 
 async function setRoutes() {
-    const response = await fetch("/data/routes", {
+    const response = await fetch("/move/data/routes", {
         method: "POST",
     });
     const data = await response.json();
@@ -80,4 +80,4 @@ setInterval(() => {
 
 setInterval(() => {
     buses();
-}, 1000)
+}, 3*1000)

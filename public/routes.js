@@ -10,7 +10,7 @@ attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreet
 
 // Custom icons
 var gmtbus = L.icon({
-    iconUrl: '../static/images/gmtbus.png',
+    iconUrl: '/move/images/gmtbus.png',
     iconSize:     [72, 80], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
     iconAnchor:   [0, 20], // point of the icon which will correspond to marker's location
@@ -18,7 +18,7 @@ var gmtbus = L.icon({
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 var catbus = L.icon({
-    iconUrl: '../static/images/catbus.png',
+    iconUrl: '/move/images/catbus.png',
     iconSize:     [90, 100], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
     iconAnchor:   [0, 20], // point of the icon which will correspond to marker's location
@@ -26,7 +26,7 @@ var catbus = L.icon({
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 var busStop = L.icon({
-    iconUrl: '../static/images/redcircle2.png',
+    iconUrl: '/move/images/redcircle2.png',
     iconSize:     [10, 10], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
     iconAnchor:   [0, 8], // point of the icon which will correspond to marker's location
@@ -34,7 +34,7 @@ var busStop = L.icon({
     popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
 });
 var busStop2 = L.icon({
-    iconUrl: '../static/images/bluecircle.png',
+    iconUrl: '/move/images/bluecircle.png',
     iconSize:     [10, 10], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
     iconAnchor:   [0, 8], // point of the icon which will correspond to marker's location
